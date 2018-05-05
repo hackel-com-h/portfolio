@@ -1,0 +1,54 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrap > .item {
+	width: 250px;
+	height: 250px;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	border: 1px solid #363635;
+
+	display: flex;
+}
+
+.wrap >.item:nth-child(2) {
+	align-items: center;
+	justify-content: center; 
+}
+
+.wrap >.item:nth-child(3) {
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+/*exercicio 2 */
+
+.middle {
+	margin: 50px 0;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	height: 200px;
+	background-color: #e8e8e8;
+}
+
+.middle >.item {
+	width: 150px;
+	height: 100px;
+	background-color: #f15f58;
+}
+
+.middle >.item:nth-child(even) {
+	background-color: #363635;
+}
+
+

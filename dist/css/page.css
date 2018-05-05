@@ -1,0 +1,334 @@
+/*exercicio*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+body {
+	background-color: #F3FAE8;
+	 color: #5F4A70;
+}
+
+body::-webkit-scrollbar {
+	width: 8px;
+	background: #876789;
+}
+        
+body::-webkit-scrollbar-thumb {
+	background: #53446D;
+}
+
+section {
+	margin-bottom: 2rem;
+}
+/* 
+@font-face {
+	font-family: 'Alex Brush', cursive;
+	
+} */
+
+.container  {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100vh;
+	min-height: 65vh;
+}
+
+section > .titulo {
+	margin-bottom: 1.25rem;
+
+	font-size: 2.2rem;
+	color: #5F4A70;
+	text-align: center;
+}
+
+
+
+.cabecalho {
+	display: flex;
+
+	margin: 0px 0px;
+	min-height: 100vh;
+
+	background-image: url(../img/sem-estrelas.jpg);
+	background-attachment: fixed;
+}
+
+.conteiner .flex-nome {
+	display: flex;
+	width: 100%;
+}
+
+.flex-nome{
+	width: 100%;
+	display: flex;
+	align-self: flex-end;
+
+}
+
+.flex-nome .nome  {
+	font-family: 'Alex Brush', cursive;
+	font-size: 100px;
+	color: #DAE0D0;
+	width: 100%;
+	margin: 0 0 138px 100px; 
+	display: flex;
+	justify-content: flex-start;
+}
+
+	
+.menu  {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.cabecalho .menu {
+	margin: 0px 0;
+	display: flex;
+	justify-content: flex-end;
+	align-self: flex-end;
+}
+
+ .cabecalho .menu .wrap  {
+	display: flex;
+	justify-content: space-between;
+
+	margin-right: 100px;
+	width: 250px;
+	list-style: none;
+}
+
+.cabecalho .menu .wrap .item .link {
+	
+	color: #F3FAE8;
+	font-size: 25px;
+	text-decoration: none;
+	text-transform: lowercase;
+
+}
+
+.cabecalho .menu .wrap .item .link:hover {
+	color: #D4DACB;
+}
+
+.apresentacao {	
+	width: 80%;
+	height: 300px;
+	margin: 50px auto;
+}
+
+.apresentacao .artigo {
+	display: flex;
+
+	font-size: 18px;
+	color: #5F4A70;
+}
+
+.apresentacao .artigo .imagem > .foto {
+	width: 300px;
+	height: 300px;
+	margin-right: 2rem;
+	border-radius: 50%;
+	border: 1px solid #8288B0;
+}
+
+.apresentacao .artigo .textos {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.apresentacao .artigo .textos > .titulo {
+	text-align: left;
+}
+
+.apresentacao .artigo .textos > .descricao {
+	line-height: 27px;
+	letter-spacing: .5px;
+}
+
+#Layer_1 {
+	position: absolute;
+	top: 20px;
+
+	animation: aparece 4.2s infinite ease-in-out;
+}
+
+#Layer_2 {
+	position: absolute;
+    top: 118px;
+    left: 0;
+
+	animation: aparece 4.8s infinite ease-in-out;
+}
+
+#Layer_3 {
+	position: absolute;
+    top: 77px;
+    left: 0;
+
+	animation: aparece 4.6s infinite ease-in-out;
+}
+
+#Estrelas {
+	position: absolute;
+    top: 400px;
+	right: 150px;
+	
+	width: 200px;
+	height: 200px;
+
+	animation: aparece-lua 3s ease-in-out;
+}
+
+@keyframes aparece {
+	0% {
+		opacity: 0;
+	}
+
+	25% {
+		opacity: .5;
+	}
+
+	50% {
+		opacity: 1;
+	}
+	
+	75% {
+		opacity: .5;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes aparece-lua {
+	from {
+		opacity: 0;
+		top: 500px;
+		right: 250px;
+	}
+	to {
+		opacity: 1;
+		top: 400px;
+		right: 150px;
+	}
+}
+
+
+
+.gostos {
+	display: flex;
+	justify-content: space-between;
+	height: 340px;
+	width: 80%;
+	margin: 0 auto;
+	color: # ;
+}
+
+.gostos .item {
+	display: flex;
+	flex-direction: column;
+
+    width: 32%;
+	height: 100%;
+	
+	border: 1px solid #8288B0;
+}
+
+.gostos .item .svg-icon > .icon { 
+	width: 100%;
+	height: 140px;
+}
+
+.item > .titulo {
+	margin-top: .5rem;
+	
+	text-align: center;
+} 
+
+.item > .descricao {
+	margin: 0 0.75rem;
+	
+	text-align: center;
+	line-height: 24px;
+}
+
+.contato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contato .titulo{
+
+}
+
+.contato .formulario {
+	width: 500px;
+}
+
+.contato .formulario .caixa {
+	border-radius: 3px;
+    border: 1px solid #8288B0;
+	padding: 6px 10px;
+	width: 95%;
+	margin-bottom: 1rem;
+}
+
+.contato .formulario .caixa:nth-child(4) {
+	height: 100px;
+}
+
+.contato .formulario .botao {
+	border: none;
+	width: 100%;
+	height: 2rem;
+
+	background-color: #48C4B2;
+	border-radius: 3px;
+	color: #F3FAE8;
+	font-size: 20px;
+
+}
+
+.rodape {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	height: 180px;
+	padding: 0 100px;
+	
+	background-color: #8288B0;
+}
+
+.rodape .nome {
+	margin-top: 10px;
+
+	font-family: 'Alex Brush', cursive;
+	font-size: 60px;
+	color: #DAE0D0;
+}
+
+.rodape .item{
+	list-style: none;
+}
+
+.rodape .social .redes {
+	display: flex;
+}
+
+.rodape .social .redes .item {
+	margin-right: 1rem;
+}
+
+.rodape .social .redes .item .link .icon {
+	height: 40px;
+	width: 40px;
+}
