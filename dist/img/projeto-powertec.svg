@@ -1,0 +1,22 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700.17 651.28">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #ffe066;
+      }
+
+      .cls-2 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>projeto-powertec</title>
+  <g id="Fundo">
+    <path class="cls-1" d="M333.9,365.78h.59" transform="translate(-0.01 0)"/>
+    <path class="cls-1" d="M334.19,357.05c-.14.41-.29.82-.43,1.24" transform="translate(-0.01 0)"/>
+  </g>
+  <path class="cls-2" d="M723.49,313.09" transform="translate(-0.01 0)"/>
+  <path class="cls-1" d="M629.61,295l-413.93-.36a16.53,16.53,0,0,1-13.93-25.41L356.91,25.59C367.56,8.87,345.12-9,331.2,5.11L4.8,336.11c-10.37,10.52-2.79,28.32,12,28.13l597.87-7.44A16.53,16.53,0,0,0,629.08,348l15.16-28.74A16.53,16.53,0,0,0,629.61,295Z" transform="translate(-0.01 0)"/>
+  <path class="cls-1" d="M70.57,356.24l413.93.36A16.53,16.53,0,0,1,498.42,382L343.27,625.69c-10.65,16.72,11.79,34.6,25.71,20.48l326.4-331c10.37-10.52,2.79-28.32-12-28.13L85.49,294.45a16.53,16.53,0,0,0-14.41,8.82L56,332a16.53,16.53,0,0,0,14.61,24.27Z" transform="translate(-0.01 0)"/>
+</svg>

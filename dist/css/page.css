@@ -23,11 +23,7 @@ body::-webkit-scrollbar-thumb {
 section {
 	margin-bottom: 2rem;
 }
-/* 
-@font-face {
-	font-family: 'Alex Brush', cursive;
-	
-} */
+
 
 .container  {
 	display: flex;
@@ -37,6 +33,21 @@ section {
 	min-height: 65vh;
 }
 
+/* Helpers inicio */
+.title {
+	margin-top: .5rem;
+	
+	text-align: center;
+} 
+
+.description {
+	margin: 0 0.75rem;
+	
+	text-align: center;
+	line-height: 24px;
+}
+/* Helpers fim */
+
 section > .titulo {
 	margin-bottom: 1.25rem;
 
@@ -44,8 +55,6 @@ section > .titulo {
 	color: #5F4A70;
 	text-align: center;
 }
-
-
 
 .cabecalho {
 	display: flex;
@@ -98,7 +107,7 @@ section > .titulo {
 	justify-content: space-between;
 
 	margin-right: 100px;
-	width: 250px;
+	width: 350px;
 	list-style: none;
 }
 
@@ -220,15 +229,12 @@ section > .titulo {
 	}
 }
 
-
-
 .gostos {
 	display: flex;
 	justify-content: space-between;
 	height: 340px;
 	width: 80%;
 	margin: 0 auto;
-	color: # ;
 }
 
 .gostos .item {
@@ -259,14 +265,60 @@ section > .titulo {
 	line-height: 24px;
 }
 
+.projetos {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 320px;
+
+	height: 340px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.projetos .item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+    width: 32%;
+	height: 100%;
+	border: 1px solid #8288B0;
+
+	cursor: pointer;
+	transition: .3s;
+}
+
+.projetos .item:hover {
+	transform: scale(1.1);
+
+	border: 3px solid #8288B0;
+
+	transition: .3s;
+}
+
+.projetos .item .link {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	text-decoration: none;
+	color: #5F4A70;
+	text-align: center;
+}
+
+.projetos .item .svg-icon > .icon{ 
+	width: 100%;
+	height: 120px;
+
+	padding-bottom: 14px;
+}
+
 .contato {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.contato .titulo{
-
 }
 
 .contato .formulario {
@@ -295,6 +347,16 @@ section > .titulo {
 	color: #F3FAE8;
 	font-size: 20px;
 
+	cursor: pointer;
+	transition: .3s;
+}
+
+.contato .formulario .botao:hover {
+	transform: scale(1.05);
+
+	background-color: rgb(81, 204, 185);
+
+	transition: .3s;
 }
 
 .rodape {
